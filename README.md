@@ -1,5 +1,5 @@
 # OnlineNotes
-Save your notes and memories online with this app. Stores in real time the content from the textarea into an SQL database and synchronises the information upon login of a user.
+Save your notes and memories online with this app. Stores the content in real time from the textarea into an SQL database and synchronises the information upon login of a user.
 
 ![Front Page](images/onlinenotes.jpg?raw=true)
 
@@ -15,10 +15,11 @@ Back-end:
 - MySQL: Database to store the username, password, and notes from the users.
 
 ## Releases
-- Version 1.0: 
+- Version 1.0.0: 
     - One single textarea to write and see notes.
     - Stores the users login and notes in the same table.
     - Uses the password_hash method from PHP to encrypt the password.
     
 ## Credits
 - Idea taken from the course "The Complete Web Developer 2.0" from Rob Percival.
+- Background image taken from [Ali Yahya](https://unsplash.com/@ayahya09 "Ali Yahya") on [Unsplash](https://www.unsplash.com "Unsplash")
