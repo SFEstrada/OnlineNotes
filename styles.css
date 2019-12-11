@@ -3,7 +3,7 @@ html{
     background: url("https://images.unsplash.com/photo-1513949145697-7a3b42cb9f21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat center center fixed;
     /*css3*/
     -webkit-background-size: cover;
-    -o-background-size: cover;
+    -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
@@ -39,7 +39,12 @@ h1, h3{
     transform: translateY(-50%);
     z-index: 100;
 }
-
+form{
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10%;
+}
 /* Notes page */
 #notes-area{
     height: 90vh;
