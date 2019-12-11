@@ -1,7 +1,7 @@
 # OnlineNotes
 Save your notes and memories online with this app. Stores in real time the content from the textarea into an SQL database and synchronises the information upon login of a user.
 
-![Front Page] (images/onlinenotes.jpg?raw=true)
+![Front Page](images/onlinenotes.jpg?raw=true)
 
 ## Tools and technologies used
 Front-end:
